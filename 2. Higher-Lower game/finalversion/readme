@@ -1,0 +1,9 @@
+* Update: Clear screen function in Python (using for clearing the screen after each loop):
+
+import os 
+ 
+def clear_screen(): 
+    os.system('cls' if os.name == 'nt' else 'clear') 
+ 
+# Call the function to clear the screen 
+clear_screen() 
